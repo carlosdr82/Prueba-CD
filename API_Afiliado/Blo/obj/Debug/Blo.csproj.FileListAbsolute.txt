@@ -1,0 +1,9 @@
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Blo\bin\Debug\Blo.dll
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Blo\bin\Debug\Blo.pdb
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Blo\bin\Debug\Dao.dll
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Blo\bin\Debug\Model.dll
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Blo\bin\Debug\Dao.pdb
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Blo\bin\Debug\Model.pdb
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Blo\obj\Debug\Blo.csprojResolveAssemblyReference.cache
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Blo\obj\Debug\Blo.dll
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Blo\obj\Debug\Blo.pdb

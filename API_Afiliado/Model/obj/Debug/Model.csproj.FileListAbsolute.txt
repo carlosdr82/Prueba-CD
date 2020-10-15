@@ -1,0 +1,5 @@
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Model\bin\Debug\Model.dll
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Model\bin\Debug\Model.pdb
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Model\obj\Debug\Model.dll
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Model\obj\Debug\Model.pdb

@@ -1,0 +1,7 @@
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dao\bin\Debug\Dao.dll
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dao\bin\Debug\Dao.pdb
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dao\bin\Debug\Model.dll
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dao\bin\Debug\Model.pdb
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dao\obj\Debug\Dao.csprojResolveAssemblyReference.cache
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dao\obj\Debug\Dao.dll
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dao\obj\Debug\Dao.pdb
