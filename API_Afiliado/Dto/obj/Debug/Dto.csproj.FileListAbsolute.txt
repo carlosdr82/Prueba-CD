@@ -1,0 +1,5 @@
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dto\bin\Debug\Dto.dll
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dto\bin\Debug\Dto.pdb
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dto\obj\Debug\Dto.csprojResolveAssemblyReference.cache
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dto\obj\Debug\Dto.dll
+C:\CDURAN\Test -SYNTEPRO\Prueba\API_Afiliado\Dto\obj\Debug\Dto.pdb
