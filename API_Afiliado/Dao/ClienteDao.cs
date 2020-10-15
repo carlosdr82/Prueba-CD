@@ -29,7 +29,7 @@ namespace Dao
                     SqlCommand = new SqlCommand("SELECT * FROM CLIENTE", Conn);
                     using (SqlDataReader SqlDataReader = SqlCommand.ExecuteReader())
                     {
-                        if (SqlDataReader.Read())
+                        while (SqlDataReader.Read())
                         {
                             CLIENTE cliente = new CLIENTE();
                             cliente.ID = Convert.ToInt64(SqlDataReader["ID"]);
@@ -104,16 +104,17 @@ namespace Dao
                 using (Conn = new SqlConnection(GetConnectionString()))
                 {
                     Conn.Open();
-                    SqlCommand = new SqlCommand("INSERT INTO CLIENTE(ID_TIPO_DOCUMENTO,NUMERO_DOCUMENTO,NOMBRE,CORREO) VALUES(@idTipoDocumento,@numero,nombre,correo) ", Conn);
+                    SqlCommand = new SqlCommand("INSERT INTO CLIENTE(ID_TIPO_DOCUMENTO,NUMERO_DOCUMENTO,NOMBRE,CORREO) VALUES(@idTipoDocumento,@numero,@nombre,@correo) ", Conn);
                     SqlCommand.Parameters.Add("@idTipoDocumento", SqlDbType.Int).Value = cliente.ID_TIPO_DOCUMENTO;
-                    SqlCommand.Parameters.Add("@numero", SqlDbType.Int).Value = cliente.NUMERO_DOCUMENTO;
-                    SqlCommand.Parameters.Add("@nombre", SqlDbType.Int).Value = cliente.NOMBRE;
-                    SqlCommand.Parameters.Add("@correo", SqlDbType.Int).Value = cliente.CORREO;
+                    SqlCommand.Parameters.Add("@numero", SqlDbType.VarChar).Value = cliente.NUMERO_DOCUMENTO;
+                    SqlCommand.Parameters.Add("@nombre", SqlDbType.VarChar).Value = cliente.NOMBRE;
+                    SqlCommand.Parameters.Add("@correo", SqlDbType.VarChar).Value = cliente.CORREO;
                     SqlCommand.ExecuteNonQuery();
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                var a = ex;
             }
         }
 
@@ -133,10 +134,10 @@ namespace Dao
                     Conn.Open();
                     SqlCommand = new SqlCommand("UPDATE CLIENTE SET ID_TIPO_DOCUMENTO=@idTipoDocumento,NUMERO_DOCUMENTO=@numero,NOMBRE=@nombre,CORREO=@correo WHERE ID=@id ", Conn);
                     SqlCommand.Parameters.Add("@id", SqlDbType.Int).Value = cliente.ID;
-                    SqlCommand.Parameters.Add("@idTipoDocumento", SqlDbType.BigInt).Value = cliente.ID_TIPO_DOCUMENTO;
-                    SqlCommand.Parameters.Add("@numero", SqlDbType.Int).Value = cliente.NUMERO_DOCUMENTO;
-                    SqlCommand.Parameters.Add("@nombre", SqlDbType.Int).Value = cliente.NOMBRE;
-                    SqlCommand.Parameters.Add("@correo", SqlDbType.Int).Value = cliente.CORREO;
+                    SqlCommand.Parameters.Add("@idTipoDocumento", SqlDbType.Int).Value = cliente.ID_TIPO_DOCUMENTO;
+                    SqlCommand.Parameters.Add("@numero", SqlDbType.VarChar).Value = cliente.NUMERO_DOCUMENTO;
+                    SqlCommand.Parameters.Add("@nombre", SqlDbType.VarChar).Value = cliente.NOMBRE;
+                    SqlCommand.Parameters.Add("@correo", SqlDbType.VarChar).Value = cliente.CORREO;
                     SqlCommand.ExecuteNonQuery();
                 }
             }
